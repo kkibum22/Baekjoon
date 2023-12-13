@@ -20,7 +20,10 @@ if (a === b && b === c) {
   console.log(1000 + a * 100);
 } else if (b === c) {
   console.log(1000 + c * 100);
-} else if (a != b && b != c) {
+}
+
+
+if (a !== b && b !== c && a!==c) {
   let bnum = Math.max(a, b, c);
   console.log(bnum * 100);
 }
